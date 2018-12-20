@@ -9,7 +9,7 @@ Ktor exposes a `MockEngine` for the HttpClient. This engine allows to simulate H
 actually connecting to the endpoint. It allows to set a code block, that can handle the request,
 and generates a response.
 
-{% include artifact.html kind="engine" class="io.ktor.client.engine.mock.MockEngine" artifact="io.ktor:ktor-client-mock:$ktor_version" test="true" %}
+{% include artifact.html kind="engine" class="io.ktor.client.engine.mock.MockEngine" artifact="io.ktor:ktor-client-mock-<jvm for Java, and respectively for other platforms >:$ktor_version" test="true" %}
 
 ## Usage
 
